@@ -36,7 +36,21 @@ body {
 .pentaInfo{
   float: left;
   width: 50%;
-  margin-left: 70px;
+  margin-left: 50px;
+  padding-left: 10px;
+	border-top:2px solid rgba(255,255,255,255);
+	border-right:2px solid rgba(255,255,255,255);
+	border-left:2px solid pink;
+}
+
+.pentaInfoResponsa{
+  float: left;
+  width: 50%;
+  margin-left: 50px;
+  padding-left: 10px;
+	border-right:2px solid rgba(255,255,255,255);
+	border-bottom:2px solid pink;
+	border-left:2px solid pink;
 }
 
 h2{
