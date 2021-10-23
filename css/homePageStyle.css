@@ -1,0 +1,122 @@
+header{
+	position: fixed;
+	top:0;
+	width:100%;
+	right:0;
+	background-color:lavenderblush;
+	box-sizing:border-box;
+	border-bottom:2px solid white;
+}
+
+#home{
+	display: inline-block;
+	float:left;
+	margin: 20px 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding: 5px 10px;
+	font-size: 35px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+}
+
+#topText{
+	margin-left: -100px;
+	padding-left: -20px;
+}
+
+body {
+	background-color: linen;
+	font-size: 17px;
+	font-family:monospace;
+}
+
+li {
+	padding: 5px;
+}
+
+span{
+	font-size: 80%;
+}
+
+.infoBox{
+	padding-bottom:20px;
+	width: 90%;
+	margin: auto;
+}
+.infoBox-title{
+	background-color:linen;
+	padding:10px;
+	box-sizing:border-box;
+	border-top:2px solid rgba(255,255,255,255);
+	border-right:2px solid rgba(255,255,255,255);
+	border-bottom:2px solid pink;
+	border-left:2px solid pink;
+}
+
+#gamesImages{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-content: center;
+}
+.game{
+	text-align: center;
+	width: 100%;
+}
+.imageLink{
+	width:672px;height:378px
+}
+
+.listsBlock {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	align-content: center;
+}
+
+	.skillList{
+		width: 100%;
+	}
+
+		.listTiles{
+				text-align: center;
+				font-size:25px;
+		}
+		.listings{
+			margin-left: 0px;
+			padding: 0px;
+			text-align: center;
+			list-style-type:none;
+		}
+
+.footer-block{
+	 display: grid;
+	 grid-template-columns: 1fr 2fr 1fr;
+}
+
+.footerContent{
+	text-align: center;
+	text-decoration: none;
+}
+
+.bnt{
+	display: inline-block;
+	margin-top: 10px;
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	border: 1px solid black;
+}
+
+.resumeBnt{
+	display: inline-block;
+	margin-top: 25px;
+	padding: 20px 20px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+.resumeBnt:hover{
+	background-color: rgb(240, 215, 225);
+}
