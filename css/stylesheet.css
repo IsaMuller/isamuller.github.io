@@ -1,0 +1,87 @@
+body {
+	background-color: linen;
+	font-size: 17px;
+	font-family:monospace;
+}
+
+h1 {
+	color: navy;
+}
+
+.infoBox{
+	background-color:lightcoral;
+	color:white;
+	padding-bottom:20px;
+	width: 90%;
+	margin: auto;
+}
+.infoBox-title{
+	background-color:crimson;
+	padding:10px;
+	box-sizing:border-box;
+	border-top:1px solid rgba(255,255,255,255);
+	border-bottom:1px solid pink;
+}
+
+#gamesImages{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-content: center;
+}
+.game{
+	text-align: center;
+	width: 100%;
+}
+.imageLink{
+	width:672px;height:378px
+}
+
+.listsBlock {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	align-content: center;
+}
+
+	.skillList{
+		width: 100%;
+	}
+
+		.listTiles{
+				text-align: center;
+				font-size:25px;
+		}
+		.listings{
+			margin-left: 0px;
+			padding: 0px;
+			text-align: center;
+			list-style-type:none;
+		}
+
+.footer-block{
+	 display: grid;
+	 grid-template-columns: 1fr 2fr 1fr;
+}
+
+.footerContent{
+	text-align: center;
+	text-decoration: none;
+}
+
+.bnt{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.resumeBnt{
+	display: inline-block;
+	margin: 20px 40px;
+	padding: 10px 20px;
+	background-color: pink;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+.resumeBnt:hover{
+	background-color: palevioletred;
+	color: white;
+}

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="css/stylesheet.css">
 </head>
 
 <body>
@@ -19,47 +19,47 @@
 <p><center>Welcome to Isadora's Portifolio website. Here you will find all types of information on projects, skills and previous work that she has participated in.</center></p>
 
 
- <div style="background-color:lightcoral;color:white;padding-bottom:20px;">
- <h2 style="background-color:crimson;padding:10px;box-sizing:border-box;border-top:1px solid rgba(255,255,255,255);border-bottom:1px solid pink;"><center>Games that I've worked on</center></H2>
-<center>
- <a href="https://pentadventuresdevlog.blogspot.com">
- <img src="Images/menu.PNG" alt="Pentadventures" style="width:672px;height:378px;padding-right:25px;" title="Pentadventures Development Blog">
+ <div  class="infoBox">
+ <h2 class="infoBox-title"><center>Games that I've worked on</center></H2>
+<div id="gamesImages">
+ <a class="game" href="https://pentadventuresdevlog.blogspot.com">
+ <img class="imageLink" src="img/menu.PNG" alt="Pentadventures" title="Pentadventures Development Blog">
  </a>
- <a href="https://youtu.be/kD0V8J13UfY">
- <img src="Images/AlchemistQuest.PNG" alt="Alchemist Quest" style="width:672px;height:378px;padding-left:25px;" title="Alchemist Quest Video">
+ <a class="game" href="https://youtu.be/kD0V8J13UfY">
+ <img class="imageLink" src="img/AlchemistQuest.PNG" alt="Alchemist Quest" title="Alchemist Quest Video">
  </a>
 
 
-</center>
+</div>
  </div>
 
 
  <!--- Alchemist Quest Full Playthrough video https://youtu.be/_PfeoA5mdIA  --->
 
- <div style="background-color:lightcoral;color:white;padding-bottom:20px;">
- <h2 style="background-color:crimson;padding:10px;box-sizing:border-box;border-top:1px solid rgba(255,255,255,255);border-bottom:1px solid pink;"><center>Skills</center></H2>
-
-<div style="float: left;margin-left:100px;">
-<p style="margin-left:30px;font-size:20px;"> Languages</p>
- <ul style="list-style-type:none;">
+ <div class="infoBox">
+ <h2 class="infoBox-title"><center>Skills</center></H2>
+<div class="listsBlock">
+<div class="skillList">
+<p class="listTiles"> Languages</p>
+ <ul class="listings">
    <li><strong>C++</strong></li>
    <li>C#</li>
    <li>HTML CSS</li>
 </ul>
 </div>
 
-<div style="float: left;margin-left:50px;">
-<p style="margin-left:30px;font-size:20px;">Spoken Languages</p>
-<ul style="list-style-type:none;">
+<div class="skillList">
+<p class="listTiles">Spoken Languages</p>
+<ul class="listings">
    <li>English (fluent)</li>
    <li>Portuguese (fluent)</li>
    <li>Spanish (begginer/intermediate)</li>
 </ul>
 </div>
 
-<div style="float: left;margin-left:40px;">
-<p style="margin-left:30px;font-size:20px;">Softwares</p>
-<ul style="list-style-type:none;">
+<div class="skillList">
+<p class="listTiles">Softwares</p>
+<ul class="listings">
    <li>Unity</li>
    <li>Visual Studio 2019</li>
    <li>Maya</li>
@@ -67,34 +67,25 @@
 </ul>
 </div>
 
-<div style="float: left;margin-left:50px;">
-<p style="margin-left:30px;font-size:20px;">Rendering APIs</p>
-<ul style="list-style-type:none;">
+<div class="skillList">
+<p class="listTiles">Rendering APIs</p>
+<ul class="listings">
    <li>Directx11</li>
    <li>Gateware</li>
    <li>FBX</li>
 </ul>
 </div>
 
-<div style="float: left;margin-left:50px;">
-<p style="margin-left:30px;font-size:20px;">Soft Skills</p>
-<ul style="list-style-type:none;">
+<div class="skillList">
+<p class="listTiles">Soft Skills</p>
+<ul class="listings">
    <li>Proactive</li>
    <li>Problem Solver</li>
    <li>Logical Thinking</li>
 </ul>
 </div>
 
-<br style="background-color:lightcoral;">
-<br style="background-color:lightcoral;">
-<br style="background-color:lightcoral;">
-<br style="background-color:lightcoral;">
-<br style="background-color:lightcoral;">
-<br style="background-color:lightcoral;">
-<br style="background-color:lightcoral;">
-<br style="background-color:lightcoral;">
-<br style="background-color:lightcoral;">
-<br style="background-color:lightcoral;">
+</div>
  </div>
 
  <br>
@@ -107,16 +98,18 @@
  <br>
 
  <footer style="position:fixed;bottom:0;width:100%;right:0;background-color:lavenderblush;box-sizing:border-box;border-top:2px solid white;">
-<div style="float:left;margin-left:100px;margin-right:50px;">
+<div class="footer-block">
+<div class="footerContent">
  <address>
- <p> Email: <a href="mailto:isamuller2003@gmail.com">isamuller2003@gmail.com</a></p>
+ <p> Email: <a class="bnt" href="mailto:isamuller2003@gmail.com">isamuller2003@gmail.com</a></p>
  </address>
 </div>
-<div style="float:left;margin-left:50px;margin-right:50px;">
- <p> GitHub: <a href="https://github.com/IsaMuller">https://github.com/IsaMuller</a></p>
+<div class="footerContent">
+ <p> GitHub: <a class="bnt" href="https://github.com/IsaMuller">https://github.com/IsaMuller</a></p>
 </div>
-<div style="float:left;margin-left:50px;margin-right:50px;">
- <p> Resume download: <a href="resume.pdf" download="IsadoraMuller_resume" title="Click here to download Isadora's Resume">Download the pdf</a> </p>
+<div class="footerContent">
+ <a class="resumeBnt" href="resume.pdf" download="IsadoraMuller_resume" title="Click here to download Isadora's Resume">Resume download</a>
+</div>
 </div>
  </footer>
 
