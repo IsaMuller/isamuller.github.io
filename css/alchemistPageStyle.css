@@ -33,62 +33,60 @@ body {
 	font-family:monospace;
 }
 
-li {
-	padding: 5px;
-}
-
-span{
-	font-size: 80%;
-}
-
-.infoBox{
-	padding-bottom:20px;
-	width: 90%;
-	margin: auto;
-}
-.infoBox-title{
-	background-color:linen;
-	padding:10px;
-	box-sizing:border-box;
+.pentaInfo{
+  float: left;
+  width: 50%;
+  margin-left: 50px;
+  padding-left: 10px;
 	border-top:2px solid rgba(255,255,255,255);
+	border-right:2px solid rgba(255,255,255,255);
+	border-left:2px solid pink;
+}
+
+.pentaInfoResponsa{
+  float: left;
+  width: 50%;
+  margin-left: 50px;
+  padding-left: 10px;
 	border-right:2px solid rgba(255,255,255,255);
 	border-bottom:2px solid pink;
 	border-left:2px solid pink;
 }
 
-#gamesImages{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	align-content: center;
+h2{
+  padding-left: 150px;
+  margin-left: 150px;
 }
-.game{
-	text-align: center;
-	width: 100%;
+
+h4{
+
 }
+
 .imageLink{
-	width:672px;height:378px
+	width:672px;
+  height:378px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 0px;
 }
 
-.listsBlock {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	align-content: center;
+.game{
+	display: inline-block;
+  float: left;
+	margin: 25px;
+	padding: 20px 20px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+.game:hover{
+	background-color: rgb(240, 215, 225);
 }
 
-	.skillList{
-		width: 100%;
-	}
 
-		.listTiles{
-				text-align: center;
-				font-size:25px;
-		}
-		.listings{
-			margin-left: 0px;
-			padding: 0px;
-			text-align: center;
-			list-style-type:none;
-		}
+
+
+
 
 .footer-block{
 	 display: grid;
@@ -102,7 +100,7 @@ span{
 
 .bnt{
 	display: inline-block;
-	margin-top: 5px;
+	margin-top: 10px;
 	text-decoration: none;
 	color: black;
 	padding: 20px;
@@ -111,7 +109,7 @@ span{
 
 .resumeBnt{
 	display: inline-block;
-	margin-top: 20px;
+	margin-top: 25px;
 	padding: 20px 20px;
 	text-align: center;
 	text-decoration: none;
