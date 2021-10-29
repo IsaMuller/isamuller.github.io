@@ -3,7 +3,7 @@ header{
 	top:0;
 	width:100%;
 	right:0;
-	background-color:lavenderblush;
+	background-color:rgb(210, 195, 215);
 	box-sizing:border-box;
 	border-bottom:2px solid white;
 }
@@ -28,7 +28,7 @@ header{
 }
 
 body {
-	background-color: linen;
+  background-color:  rgb(235, 219, 240);
 	font-size: 17px;
 	font-family:monospace;
 }
@@ -40,7 +40,7 @@ body {
   padding-left: 10px;
 	border-top:2px solid rgba(255,255,255,255);
 	border-right:2px solid rgba(255,255,255,255);
-	border-left:2px solid pink;
+	border-left:2px solid rgb(114, 73, 129);
 }
 
 .pentaInfoResponsa{
@@ -49,8 +49,8 @@ body {
   margin-left: 50px;
   padding-left: 10px;
 	border-right:2px solid rgba(255,255,255,255);
-	border-bottom:2px solid pink;
-	border-left:2px solid pink;
+	border-bottom:2px solid rgb(114, 73, 129);
+	border-left:2px solid rgb(114, 73, 129);
 }
 
 h2{
@@ -80,7 +80,7 @@ h4{
 	color: black;
 }
 .game:hover{
-	background-color: rgb(240, 215, 225);
+	background-color: rgb(210, 195, 215);
 }
 
 
@@ -116,5 +116,5 @@ h4{
 	color: black;
 }
 .resumeBnt:hover{
-	background-color: rgb(240, 215, 225);
+	background-color:  rgb(235, 219, 240);
 }

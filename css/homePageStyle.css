@@ -3,7 +3,7 @@ header{
 	top:0;
 	width:100%;
 	right:0;
-	background-color:lavenderblush;
+	background-color: rgb(210, 195, 215);
 	box-sizing:border-box;
 	border-bottom:2px solid white;
 }
@@ -28,7 +28,7 @@ header{
 }
 
 body {
-	background-color: linen;
+	background-color:  rgb(235, 219, 240);
 	font-size: 17px;
 	font-family:monospace;
 }
@@ -47,13 +47,13 @@ span{
 	margin: auto;
 }
 .infoBox-title{
-	background-color:linen;
+	background-color: rgb(223, 196, 231);
 	padding:10px;
 	box-sizing:border-box;
 	border-top:2px solid rgba(255,255,255,255);
 	border-right:2px solid rgba(255,255,255,255);
-	border-bottom:2px solid pink;
-	border-left:2px solid pink;
+	border-bottom:2px solid rgb(114, 73, 129);
+	border-left:2px solid rgb(114, 73, 129);
 }
 
 #gamesImages{
@@ -61,6 +61,25 @@ span{
 	grid-template-columns: 1fr 1fr;
 	align-content: center;
 }
+
+
+#industryTechniques{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 50px;
+	grid-row-gap: 0px;
+	align-content: center;
+	padding: 10px;
+	background-color: rgb(210, 195, 215);
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.gifs{
+	width: 100%;
+}
+
 .game{
 	text-align: center;
 	width: 100%;
